@@ -1,4 +1,4 @@
-# Xtra Care SkillHub
+# OpenCare Care SkillHub
 
 [中文](#中文) | [English](#english)
 
@@ -6,7 +6,7 @@
 
 ## 中文
 
-**Xtra Care SkillHub** 是一个以 **SDM（患者共同决策）** 为基础、围绕肿瘤患者真实需求建设的开源医疗 SkillHub 社区。
+**OpenCare SkillHub** 是一个以 **SDM（患者共同决策）** 为基础、围绕肿瘤患者真实需求建设的开源医疗 SkillHub 社区。
 
 我们的目标，是共同搭建一个开放、可持续协作的基础设施，让患者、家属、医生、开发者、研究者与公益伙伴能够一起建设、维护和迭代真正有用的医疗技能、工具、知识模块与工作流。
 
