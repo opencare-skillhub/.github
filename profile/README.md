@@ -8,7 +8,41 @@
 
 **OpenCare SkillHub** 是一个以 **SDM（患者共同决策）** 为基础、围绕肿瘤患者真实需求建设的开源医疗 SkillHub 社区。
 
-我们的目标，是共同搭建一个开放、可持续协作的基础设施，让患者、家属、医生、开发者、研究者与公益伙伴能够一起建设、维护和迭代真正有用的医疗技能、工具、知识模块与工作流。
+我们的目标，是共同搭建一个开放、可持续协作的基础设施，让患者、家属、医生、开发者、研究者与公益伙伴能够一起建设、维护和迭代真正有用的医疗工具。
+
+### 🌟 OpenCare Skills 社区成果
+
+**OpenCare Skills 已发展成为肿瘤患者及家属的主流技能仓库集合。** 目前社区已积累 **30+ 个新鲜成果**，涵盖肿瘤及罕见病领域，并持续收集和增加开源社区的相关技能包。无论是查找治疗指南、检索临床试验、下载医学影像（DICOM）、还是整理病历，患者和家属都可以通过这些工具一站式解决。
+
+### 💡 典型使用场景
+
+针对肿瘤患者及家属，OpenCare Skills 可以帮助你们：
+
+#### 📚 医学知识获取
+- **下载国际治疗指南** - NCCN 肿瘤指南、患者指南多语言版本一键下载
+- **获取最新药物信息** - 实时收集与监控肿瘤药物、临床试验、研究进展相关的新闻资讯，每日自动生成报告
+
+#### 🔍 临床试验查询  
+- **智能匹配临床试验** - 集成 ClinicalTrials.gov 和 ChiCTR 双源数据，用 AI 分析找到最适合的试验机会
+- **深度试验分析** - 不只是列表查询，AI 驱动的分析帮助理解试验细节和机会
+
+#### 📋 医疗信息管理
+- **智能整理病历** - 用 LLM + OCR 技术自动识别和组织医学报告、诊断记录、用药说明，生成多格式输出
+- **下载医学影像** - 便捷工具帮助患者下载和管理 DICOM 影像数据
+- **健康档案生成** - 将零散的检验报告、医学笔记、用药信息智能整合成清晰的个人健康档案和复诊简报
+
+#### 📰 信息汇总与跟进
+- **胰腺癌患者每日资讯** - 自动收集、监控、提取高相关性的药物/医学/试验/报告新闻，生成每日摘要报告，通过 Feishu 或微信推送
+- **医学内容管理** - 将网页文章转换为标准化格式，支持多渠道分发给患者社群
+
+#### 📖 医学内容与研究
+- **PDF 多语言翻译** - 保留布局、公式、图表的英文 PDF 到中文翻译，轻松获取国际研究资料
+- **RAG 知识库构建** - 自动化下载、处理、上传医学文章，加速肿瘤 / 罕见病 RAG 知识库建设
+- **智能文章生成** - 个性化的医学科普文章生成与改进
+
+#### 🛠️ 工作流与协作工具
+- **云存储备份恢复** - OpenClaw 平台数据备份和恢复操作
+- **笔记与待办管理** - Feishu/Lark 笔记和待办事项智能扫描、排序、处理
 
 ### 我们为什么做这件事
 
@@ -74,13 +108,57 @@
 
 **让我们一起，做一些真正能带来改变的事。**
 
+### 🙌 贡献者
+
+感谢以下贡献者对 OpenCare SkillHub 社区的支持与贡献：
+
+<a href="https://github.com/opencare-skillhub/.github/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=opencare-skillhub/.github&v=1" />
+</a>
+
+我们欢迎更多贡献者加入！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与。
+
 ---
 
 ## English
 
-**Xtra Care SkillHub** is a community-driven open source hub for medical and healthcare skills, built around the real-world needs of cancer patients and guided by **SDM (Shared Decision-Making)**.
+**OpenCare SkillHub** is a community-driven open source hub for medical and healthcare skills, built around the real-world needs of cancer patients and guided by **SDM (Shared Decision-Making)**.
 
-Our goal is to create an open and sustainable collaborative infrastructure where patients, caregivers, clinicians, developers, researchers, and public-interest contributors can work together to build, maintain, and improve practical medical skills, tools, knowledge modules, and workflows.
+Our goal is to create an open and sustainable collaborative infrastructure where patients, caregivers, clinicians, developers, researchers, and public-interest contributors can work together to build, maintain, and iterate on truly useful medical tools.
+
+### 🌟 OpenCare Skills Community Achievements
+
+**OpenCare Skills has become the mainstream collection of skill repositories for cancer patients and families.** The community has accumulated **30+ fresh results**, covering cancer and rare disease domains, with continuous collection and addition of related skill packages from the open source community. Whether finding treatment guidelines, searching for clinical trials, downloading medical imaging (DICOM), or organizing medical records, patients and families can solve these challenges through our integrated toolkit.
+
+### 💡 Typical Use Cases
+
+For cancer patients and families, OpenCare Skills can help you:
+
+#### 📚 Medical Knowledge Access
+- **Download International Treatment Guidelines** - NCCN cancer guidelines and patient guidebooks in multiple languages available for one-click download
+- **Get Latest Drug Information** - Real-time collection and monitoring of news related to cancer drugs, clinical trials, and research progress, with automated daily report generation
+
+#### 🔍 Clinical Trial Search
+- **Intelligent Clinical Trial Matching** - Integrated dual-source retrieval from ClinicalTrials.gov and ChiCTR with AI analysis to find the most suitable trial opportunities
+- **Deep Trial Analysis** - Beyond just listing queries, AI-driven analysis helps understand trial details and opportunities
+
+#### 📋 Medical Information Management
+- **Intelligent Medical Record Organization** - Automatically recognize and organize medical reports, diagnostic records, and medication instructions using LLM + OCR technology, generating multi-format outputs
+- **Download Medical Imaging** - Convenient tools to help patients download and manage DICOM imaging data
+- **Generate Health Profiles** - Intelligently consolidate scattered lab reports, medical notes, and medication information into clear personal health records and visit briefs
+
+#### 📰 Information Aggregation and Follow-up
+- **Daily Cancer Patient News** - Automatically collect, monitor, and extract highly relevant news about drugs, medical advances, trials, and reports, generating daily digest reports pushed via Feishu or WeChat
+- **Medical Content Management** - Convert web articles into standardized formats for multi-channel distribution to patient communities
+
+#### 📖 Medical Content and Research
+- **PDF Multilingual Translation** - English to Chinese translation while preserving layout, formulas, and figures for easy access to international research materials
+- **RAG Knowledge Base Construction** - Automated download, processing, and upload of medical articles to accelerate cancer and rare disease RAG knowledge base development
+- **Intelligent Article Generation** - Personalized medical science communication article generation and refinement
+
+#### 🛠️ Workflow and Collaboration Tools
+- **Cloud Storage Backup and Recovery** - OpenClaw platform data backup and recovery operations
+- **Notes and Task Management** - Feishu/Lark notes and to-do item intelligent scanning, sorting, and processing
 
 ### Why we are building this
 
@@ -144,4 +222,14 @@ We hope it can become a public SkillHub that connects **patient needs, medical k
 
 If you care about patient impact, public-interest technology, medical AI, or open collaboration, you are welcome here.
 
-**Let’s build something that can create real change.**
+**Let's build something that can create real change.**
+
+### 🙌 Contributors
+
+Thanks to all the contributors who support and contribute to the OpenCare SkillHub community:
+
+<a href="https://github.com/opencare-skillhub/.github/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=opencare-skillhub/.github&v=1" />
+</a>
+
+We welcome more contributors to join us! Please check [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to participate.
